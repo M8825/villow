@@ -157,6 +157,13 @@ const NewAccountForm = () => {
           >
             Submit
           </button>
+          <button
+            type="Submit"
+            id="submit_button"
+            disabled={!isNotValid()}
+          >
+            Add example button
+          </button>
 
           <div id="login_form__terms_and_conditions">
             <p>
